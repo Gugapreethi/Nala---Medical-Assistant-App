@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.app-wrapper {
+  width: 430px;
+  min-width: 430px;
+  max-width: 430px;
+  height: 100vh;
+  background: #f8fffe;
+  position: relative;
+  box-shadow: 0 0 40px rgba(0,0,0,0.15);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.page {
+  padding: 20px;
+  padding-bottom: 90px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #00b894, #00cec9);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 12px;
+}
+
+.primary-btn:active {
+  opacity: 0.85;
+}
+
+textarea, input {
+  width: 100%;
+  border: 2px solid #e0f7f4;
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  outline: none;
+  background: #f8fffe;
+}
+
+textarea:focus, input:focus {
+  border-color: #00b894;
+}

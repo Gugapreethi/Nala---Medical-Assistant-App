@@ -1,0 +1,8 @@
+# .gitignore file create பண்ணி இந்த content போடு
+node_modules/
+__pycache__/
+.env
+*.json
+venv/
+.vite/
+dist/
